@@ -1,0 +1,37 @@
+.kanban-board {
+    display: flex;
+    justify-content:center;
+    width: 80%;
+  }
+  
+  .kanban-column {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    min-width: 200px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  .kanban-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+  }
+  
+  .kanban-handle {
+    cursor: grab;
+    margin-right: 5px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 50%;
+  }
+  
+  .form-area-color {
+    background-color: #ffcccc; /* Change the background color as needed */
+  }
+  
