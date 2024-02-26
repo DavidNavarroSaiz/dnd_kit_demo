@@ -31,6 +31,7 @@ export function MyComponent() {
   // Handle dropping items into formArea
   const handleDropItems = (event) => {
     const itemText = event.dataTransfer.getData("text/plain");
+    console.log("itemText",itemText)
     if (itemText) {
       const newFormArea = [...formArea, itemText];
       setFormArea(newFormArea);
